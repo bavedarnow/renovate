@@ -47,7 +47,8 @@ module.exports = {
       hostType: 'maven',
       baseUrl: 'https://artifactory.yourcompany.com/',
       username: process.env.ARTIFACTORY_USR,
-      password: process.env.ARTIFACTORY_PSW
-    }
-  ]
+      password: process.env.ARTIFACTORY_PSW,
+    },
+  ],
 };
+```
